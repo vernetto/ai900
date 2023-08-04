@@ -46,3 +46,30 @@ Key features of Azure Machine Learning include:
 By providing a range of tools and services for all stages of the machine learning development process, Azure Machine Learning makes it easier for data scientists and developers to build, deploy, and manage machine learning models.
 
 
+User
+what are the available Machine learning model types ?
+
+ChatGPT
+
+There are various types of machine learning models that can be categorized broadly into four types:
+
+- Supervised Learning: This is a type of machine learning where the model is provided with labeled training data. It includes algorithms like linear regression, logistic regression, support vector machines (SVM), decision trees, random forest, and gradient boosting. It is further classified into:
+
+* Regression: Used when the output variable is a real or continuous value, such as "salary" or "weight".
+* Classification: Used when the output variable is a category, such as "red" or "blue" or "disease" and "no disease".
+
+- Unsupervised Learning: In this type of learning, the model is provided with unlabeled training data and must find patterns and relationships within the data. It includes algorithms like K-means clustering, hierarchical clustering, and principal component analysis (PCA). Unsupervised learning models are further classified into:
+
+* Clustering: Used for grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense) to each other than to those in other groups (clusters).
+* Association: It is a rule-based machine learning method for discovering interesting relations between variables in large databases.
+ 
+- Semi-Supervised Learning: This method uses a combination of a small amount of labeled data and a large amount of unlabeled data during training. The model is initially trained with the labeled data, then it uses what it learned to label the unlabeled data, and then it re-trains itself using the combined data.
+
+- Reinforcement Learning: This type of learning uses rewards and penalties to teach the model how to make decisions. It's often used in robotics, gaming, and navigation. With reinforcement learning, an agent learns to behave in an environment, by performing certain actions and observing the results.
+
+There are also variations and combinations of these methods for specific uses, such as Deep Learning, which is a subset of machine learning and is characterized by deep neural networks. Ensemble methods, such as random forests or gradient boosting, combine the decisions from multiple models to improve the overall performance.
+
+
+
+
+
